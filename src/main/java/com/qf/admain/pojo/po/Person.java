@@ -2,7 +2,7 @@ package com.qf.admain.pojo.po;
 
 public class Person {
     private int id;
-    private String username;
+    private int age;
 
     public int getId() {
         return id;
@@ -12,11 +12,11 @@ public class Person {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public int getAge() {
+        return age;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setAge(int age) {
+        this.age = age;
     }
 }
